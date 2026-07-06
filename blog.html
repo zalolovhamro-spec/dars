@@ -1,0 +1,302 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>blog</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+    <header
+      class="fixed top-0 left-0 w-full z-50 bg-[#0B0F10]/90 backdrop-blur-md border-b border-gray-800 text-white"
+    >
+      <div class="flex justify-between items-center p-4">
+        <h1 class="text-3xl font-bold text-sky-400">BlueTech</h1>
+        <nav class="hidden lg:flex gap-8">
+          <a href="index.html">Home</a>
+          <a href="services.html">Services</a>
+          <a href="gallery.html">Gallery</a>
+          <a href="price.html">Price</a>
+          <a class="text-sky-400 underline" href="careers.html">Careers</a>
+          <a href="blog.html">Blog</a>
+          <a href="about.html">About</a>
+          <a href="team.html">Team</a>
+          <a href="login.html">Login</a>
+          <a href="Contakt.html">Contact</a>
+        </nav>
+
+        <button id="menuBtn" class="lg:hidden text-4xl">☰</button>
+      </div>
+    </header>
+    <main class="bg-[#111] pt-30 pb-10">
+      <section>
+        <div
+          id="mobileMenu"
+          class="fixed top-0 left-[-100%] w-72 h-screen bg-[#111] duration-500 z-50"
+        >
+          <div
+            class="flex justify-between items-center p-5 border-b border-gray-700"
+          >
+            <h1 class="text-3xl font-bold text-sky-400">BlueTech</h1>
+
+            <button id="closeBtn" class="text-4xl text-white">✕</button>
+          </div>
+
+          <nav class="flex flex-col text-white text-xl">
+            <a href="./index.html" class="p-4 hover:bg-gray-800">🏠 Home</a>
+
+            <a href="./services.html" class="p-4 hover:bg-gray-800"
+              >🛠 Services</a
+            >
+
+            <a href="./gallery.html" class="p-4 hover:bg-gray-800"
+              >🖼 Gallery</a
+            >
+
+            <a href="./price.html" class="p-4 hover:bg-gray-800"
+              >💲 Price List</a
+            >
+
+            <a href="./careers.html" class="p-4 hover:bg-gray-800"
+              >💼 Careers</a
+            >
+
+            <a href="./blog.html" class="p-4 hover:bg-gray-800">📰 Blog</a>
+
+            <a href="./about.html" class="p-4 hover:bg-gray-800">ℹ About</a>
+
+            <a href="./team.html" class="p-4 hover:bg-gray-800">👨‍💻 Team</a>
+
+            <a href="contact.html" class="p-4 hover:bg-gray-800">📞 Contact</a>
+
+            <a href="login.html" class="p-4 hover:bg-gray-800">🔑 Login</a>
+          </nav>
+        </div>
+      </section>
+      <section>
+        <div>
+          <p class="text-center text-cyan-400 text-6xl font-bold">
+            Блоги Технологӣ
+          </p>
+          <p class="text-center text-gray-400 text-2xl">
+            Охирин навигариҳо дар олами сахтафзор, дастурҳои сохтани компютерҳо
+            <br />ва таҳлилҳои коршиносони BlueTech.
+          </p>
+        </div>
+        <div
+          class="bg-[#111827] rounded-2xl p-6 flex flex-col lg:flex-row items-center gap-8 mt-10"
+        >
+          <div class="w-full lg:w-1/2">
+            <img
+              src="imeges/image copy 14.png"
+              alt="Gaming PC"
+              class="w-full rounded-xl object-cover"
+            />
+          </div>
+          <div class="w-full lg:w-1/2 text-white">
+            <span
+              class="inline-block bg-cyan-500/20 text-cyan-400 px-4 py-1 rounded-full text-sm mb-4"
+            >
+              Навтарин
+            </span>
+
+            <h2 class="text-2xl lg:text-4xl font-bold leading-tight mb-5">
+              Ояндаи Ратсессорҳо:
+              <br />
+              Насли Нави Intel ва AMD чӣ пешниҳод мекунанд?
+            </h2>
+
+            <p class="text-gray-400 leading-8 mb-8">
+              Мо ба таври муфассал имкониятҳои нави протсессорҳоро таҳлил
+              мекунем. Онҳо барои кор, барномасозӣ, тарроҳӣ ва бозиҳо чӣ гуна
+              беҳбудӣ пешниҳод мекунанд.
+            </p>
+
+            <div class="flex items-center gap-3">
+              <img
+                src="imeges/image copy 13.png"
+                class="w-12 h-12 rounded-full"
+                alt=""
+              />
+
+              <div>
+                <h4 class="font-semibold">Алишер Каримов</h4>
+                <p class="text-sm text-gray-500">Муаллиф</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="lg:flex lg:flex-row flex-col mt-10 justify-center gap-30">
+          <div class="mt-5 lg:mt-0 p-5 bg-[#112] w-90 rounded-2xl">
+            <div>
+              <img
+                class="rounded-2xl hover:scale-105 hover:duration-1000"
+                src="imeges/image copy 15.png"
+                alt=""
+              />
+            </div>
+            <br />
+            <span
+              class="inline-block bg-cyan-500/20 text-cyan-400 px-4 py-1 rounded-full text-sm mb-4"
+            >
+              Дастурамал </span
+            ><br />
+            <p class="text-2xl font-bold text-white hover:text-cyan-400">
+              Дастури қадам-ба-қадам <br />
+              барои сохтани PC-и <br />орзуи шумо
+            </p>
+            <br />
+            <p class="text-[14px] text-gray-400">
+              Аз интихоби қуттӣ то насби системаи <br />хунуккунии обӣ. Мо ҳама
+              асрорро барои <br />оғозкунандагон ошкор мекунем.
+            </p>
+            <br /><br />
+            <a class="hover:underline text-xl text-cyan-400 font-bold" href=""
+              >Бештар хонед</a
+            >
+          </div>
+          <div class="lg:flex-row flex-col lg:ml-5 p-5 bg-[#112] w-90 rounded-2xl">
+            <div>
+              <img
+                class="rounded-2xl hover:scale-105 hover:duration-1000"
+                src="imeges/image copy 16.png"
+                alt=""
+              />
+            </div>
+            <br />
+            <span
+              class="inline-block bg-cyan-500/20 text-cyan-400 px-4 py-1 rounded-full text-sm mb-4"
+            >
+              Дастурамал </span
+            ><br />
+            <p class="text-2xl font-bold text-white hover:text-cyan-400">
+              Дастури қадам-ба-қадам <br />
+              барои сохтани PC-и <br />орзуи шумо
+            </p>
+            <br />
+            <p class="text-[14px] text-gray-400">
+              Аз интихоби қуттӣ то насби системаи <br />хунуккунии обӣ. Мо ҳама
+              асрорро барои <br />оғозкунандагон ошкор мекунем.
+            </p>
+            <br /><br />
+            <a class="hover:underline text-xl text-cyan-400 font-bold" href=""
+              >Бештар хонед</a
+            >
+          </div>
+          <div class="p-5 bg-[#112] w-90 rounded-2xl">
+            <div>
+              <img
+                class="rounded-2xl hover:scale-105 hover:duration-1000"
+                src="imeges/image copy 17.png"
+                alt=""
+              />
+            </div>
+            <br />
+            <span
+              class="inline-block bg-cyan-500/20 text-cyan-400 px-4 py-1 rounded-full text-sm mb-4"
+            >
+              Дастурамал </span
+            ><br />
+            <p class="text-2xl font-bold text-white hover:text-cyan-400">
+              Дастури қадам-ба-қадам <br />
+              барои сохтани PC-и <br />орзуи шумо
+            </p>
+            <br />
+            <p class="text-[14px] text-gray-400">
+              Аз интихоби қуттӣ то насби системаи <br />хунуккунии обӣ. Мо ҳама
+              асрорро барои <br />оғозкунандагон ошкор мекунем.
+            </p>
+            <br /><br />
+            <a class="hover:underline text-xl text-cyan-400 font-bold" href=""
+              >Бештар хонед</a
+            >
+          </div>
+        </div>
+      </section>
+      <section class="mt-20">
+        <div >
+          <div class="flex justify-center gap-120">
+            <div>
+              <p class="text-white text-3xl font-bold">Обуна ба Хабарнома</p>
+              <br />
+              <p class="text-[14px] text-gray-400">
+                Ҳафтае як маротиба беҳтарин мақолаҳо ва тахфифҳои махсусро
+                <br />ба почтаи электронии худ дастрас кунед.
+              </p>
+            </div>
+            <div class="flex gap-4 lg:flex-row flex-col">
+              <input
+                type="email"
+                placeholder="Email-и шумо"
+                class=" bg-[#2B2F33] text-white placeholder:text-gray-500 rounded-lg px-5 py-4 outline-none border border-transparent focus:border-cyan-400"
+              />
+
+              <button
+                class="bg-[#8ED8FF] text-[#0F172A] font-semibold rounded-lg px-10 py-4 cursor-pointer hover:bg-[#74CEFF] duration-300"
+              >
+                Обуна шудан
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="w-full bg-[#1A1D22] px-6 lg:px-12 py-10">
+    <div class="w-full flex flex-col lg:flex-row justify-center gap-10">
+        <div class="w-full lg:w-[35%]">
+
+            <h2 class="text-2xl font-bold text-sky-400 mb-4">
+                BlueTech
+            </h2>
+
+            <p class="text-gray-400 text-sm leading-7">
+                Таҷҳизоти баландсифати муҳандисӣ барои муҳити саноатӣ.
+                Муҳандисии дақиқ, дар марҳилаи аввалин ва истеҳсоли
+                муосир. Мо сифати байналмилалиро пешниҳод мекунем.
+            </p>
+
+        </div>
+        <div class="w-full lg:w-[55%] flex flex-col sm:flex-row justify-between gap-8">
+
+            <div>
+                <h3 class="text-white font-semibold mb-4">
+                    Саҳифаҳо
+                </h3>
+
+                <ul class=" text-gray-400 text-sm">
+                    <li><a href="#" class="hover:text-sky-400">Асосӣ</a></li><br>
+                    <li><a href="#" class="hover:text-sky-400">Дар бораи мо</a></li><br>
+                    <li><a href="#" class="hover:text-sky-400">Маҳсулот</a></li><br>
+                    <li><a href="#" class="hover:text-sky-400">Хизматрасониҳо</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h3 class="text-white  mb-4">
+                    Сиёсат
+                </h3>
+
+                <ul class="s text-gray-400 text-sm">
+                    <li><a href="#" class="hover:text-sky-400">Махфият</a></li><br>
+                    <li><a href="#" class="hover:text-sky-400">Шартҳо</a></li><br>
+                    <li><a href="#" class="hover:text-sky-400">Ҳуқуқи сайт</a></li><br>
+                    <li><a href="#" class="hover:text-sky-400">Дастгирӣ</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="border-t border-gray-700 mt-10 pt-5">
+        <p class="text-xs text-gray-500 text-center lg:text-left">
+            © 2024 BlueTech Precision Computing. Ҳамаи ҳуқуқҳо ҳифз шудаанд.
+        </p>
+    </div>
+
+</footer>
+<script src="script.js"></script>
+  </body>
+</html>
